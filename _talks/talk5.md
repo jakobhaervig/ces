@@ -1,9 +1,9 @@
 ---
-name: Eu Nisl Nunc Mi Ipsum Faucibus
+name: Test
 speakers:
   - The Anonymous
 categories:
-  - MCE
+  - EPSH
   - Technical presentation
 ---
 

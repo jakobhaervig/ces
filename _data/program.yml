@@ -1,25 +1,25 @@
 days:
-- name: Monday
-  abbr: Mo
-  date: 2020-01-31
+- name: Wednesday
+  abbr: wed
+  date: 2024-12-18
   rooms:
-  - name: Room A
+  - name: Pon111/1.177
     talks:
-      - name: Vim Impetus Placerat Cotidieque Ad
-        time_start: '12:00'
-        time_end: '12:45'
-      - name: Condimentum Vitae Sapien Pellentesque
-        time_start: '12:45'
-        time_end: '13:30'
+      - name: CES Opening 2024
+        time_start: '09:00'
+        time_end: '09:30'
+      - name: To be announced
+        time_start: '09:30'
+        time_end: '10:30'
 
-  - name: Room B
+  - name: Pon111/1.031
     talks:
-      - name: Arcu Non Odio
-        time_start: '12:00'
-        time_end: '13:00'
-
-  - name: Room C
-    talks:
-      - name: Eu Nisl Nunc Mi Ipsum Faucibus
-        time_start: '13:30'
-        time_end: '14:30'
+      - name: CES Opening 2024
+        time_start: '09:00'
+        time_end: '09:30'
+      - name: To be announced
+        time_start: '09:30'
+        time_end: '10:30'
+      - name: Electrolysis is amazing
+        time_start: '10:30'
+        time_end: '11:00'

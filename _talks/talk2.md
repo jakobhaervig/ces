@@ -1,10 +1,7 @@
 ---
-name: Condimentum Vitae Sapien Pellentesque
-speakers:
-  - Tolga Philip
-  - Alex Rosales
+name: CFD in the WILD
 categories:
-  - Cat A
-  - Talk
-hide: true
+  - TEPE
+  - Technical presentation
+#hide: true
 ---

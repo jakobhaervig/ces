@@ -5,7 +5,7 @@
     {%- if page.title -%}
       {{- page.title -}}
     {%- else -%}
-      {{- site.data.lang[site.conference.lang].program.title | default: "Program" -}}
+      {{- site.data.lang[site.conference.lang].program.title | default: "Programme" -}}
     {%- endif -%}
   </h1>
 
@@ -151,6 +151,9 @@
 
                       <p class="mb-2">
                         {%- include partials/show_talk.html %}
+                      </p>
+                      <p class="mb-1">
+                        {%- include partials/show_number.html %}
                       </p>
                       <p class="font-weight-light mb-2">
                         {%- include partials/list_speakers.html %}

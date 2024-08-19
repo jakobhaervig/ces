@@ -1,10 +1,11 @@
 ---
-name: Arcu Non Odio
+name: ttests
 speakers:
   - Alex Rosales
+  - helololo
 categories:
-  - Cat A
-  - Talk
+  - PED
+  - Technical presentation
 links:
   - name: Recodring
     icon: video
