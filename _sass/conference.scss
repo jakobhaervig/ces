@@ -253,3 +253,7 @@ main.container img {
     display: inline-block !important;
   }
 }
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+}

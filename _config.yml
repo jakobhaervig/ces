@@ -65,10 +65,10 @@ conference:
 
   # Navigation bar
   navigation:
-    #logo:
-      # name: Aalborg University
-      # img: ''
-      # url: 'https://aau.dk/'
+    logo:
+      name: Aalborg University
+      img: 'logo.svg'
+      url: 'https://aau.dk/'
     breakpoint: md
     links:
       - name: Program
