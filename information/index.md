@@ -11,6 +11,6 @@ layout: page
 
 ## CES templates
 You are required to use the CES templates listed below for your abstract, paper and poster:
-- [Abstract template](https://octodex.github.com/images/minion.png)
-- [Scientific paper template (on Overleaf)](https://octodex.github.com/images/minion.png)
-- [Poster template](https://octodex.github.com/images/minion.png)
+- [Abstract template](https://raw.githubusercontent.com/jakobhaervig/ces/main/templates/CES_abstract_template.doc)
+- [Scientific paper template (on Overleaf)](https://www.overleaf.com/read/zjgpfdssnsty#6329cb)
+- [Poster template](https://raw.githubusercontent.com/jakobhaervig/ces/main/templates/CES_poster_template.pptx)
