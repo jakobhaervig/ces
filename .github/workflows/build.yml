@@ -18,6 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+      - name: Install prerequisites
+        run: |
+          sudo apt-get install ruby-full build-essential zlib1g-dev
+
       - name: Checkout code
         uses: actions/checkout@v2
         with:
