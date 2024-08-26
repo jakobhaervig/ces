@@ -1,6 +1,6 @@
 ---
 layout: home
 ---
-CES (Conference for Energy Students) is a conference organised for Energy students studying at Aalborg University. The conference resembles the layout and structure of any other conference.
+CES (Conference for Energy Students) is a conference organised for Energy students studying at Aalborg University to fulfill the [study curriculum](https://studieordninger.aau.dk/EnergyEngineering-Masterdegree-Aalborg-English-MasterofScienceMScinEngineering).
 
-On this website you may find all relevant information regarding the conference.
+Participation in the conference is free for all, including supervisors, coordinators and guests.
