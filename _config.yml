@@ -79,8 +79,8 @@ conference:
         relative_url: /speakers/
       - name: Location
         relative_url: /location/
-      - name: Paper submission
-        relative_url: /submission/
+      - name: Important Information
+        relative_url: /information/
       - name: Previous Editions
         menu:
           - name: 2024 (current)
@@ -106,7 +106,7 @@ conference:
       - name: Conference venue
         relative_url: /location/
       - name: How to submit your paper
-        relative_url: /submission/
+        relative_url: /information/
   # Information boxes
   info_bars:
     - title: Welcome to the new website of CES 2024!

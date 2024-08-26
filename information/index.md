@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+## Important dates
+- **9 October 2024:** Abstract submission deadline
+- **14 October 2024** Abstract submission acceptance notification
+- **16 December 2024:** Scientific paper submission deadline
+- **16 December 2024:** Poster submission deadline
+- **18 December 2024:** Conference day
+
+## CES templates
+You are required to use the CES templates listed below for your abstract, paper and poster:
+- [Abstract template](https://octodex.github.com/images/minion.png)
+- [Scientific paper template (on Overleaf)](https://octodex.github.com/images/minion.png)
+- [Poster template](https://octodex.github.com/images/minion.png)

@@ -111,7 +111,7 @@
 
                 {%- assign active_talk = false -%}
                 {%- for t in r.talks -%}
-                  {%- assign talk = site.talks | where: 'name', t.name | first -%}
+                  {%- assign talk = site.talks | where: 'number', t.number | first -%}
 
                   {%- include partials/get_talk_time.html -%}
 

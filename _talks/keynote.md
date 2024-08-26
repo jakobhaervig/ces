@@ -1,7 +1,8 @@
 ---
 name: To be announced
+number: keynote
 speakers:
-  - To be announced
+  - Tolga Philip
 categories:
   - Plenary
   - Keynote presentation
