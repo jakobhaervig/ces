@@ -14,10 +14,10 @@ layout: page
 
 
 ### Abstract submission
-The abstract should be submitted through GitHub, which hosts the conference website. Follow these steps to submit your abstract:
+Your abstract should follow the <a href="https://raw.githubusercontent.com/jakobhaervig/ces/main/_talks/CES_abstract_template.md" download="CES_abstract_template.md">CES abstract templatete</a>. More guidelines and requirements are specified in the template.
 
 ### Scientific paper submission
-Your scientific paper should use the [CES paper template](https://www.overleaf.com/read/zjgpfdssnsty#6329cb) available on Overleaf.
+Your scientific paper should use the [CES paper template](https://www.overleaf.com/read/zjgpfdssnsty#6329cb) available on Overleaf. More guidelines and requirements are specified in the template.
 
 ### Poster submission
-Your poster should use the [CES poster template](https://raw.githubusercontent.com/jakobhaervig/ces/main/templates/CES_poster_template.pptx).
+Your poster should use the [CES poster template](https://raw.githubusercontent.com/jakobhaervig/ces/main/templates/CES_poster_template.pptx). More guidelines and requirements are specified in the template.
