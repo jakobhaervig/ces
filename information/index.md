@@ -10,10 +10,14 @@ layout: page
 - **16 December 2024:** Poster submission deadline
 - **18 December 2024:** Conference day
 
-## CES templates
-You are required to use the CES templates listed below for your abstract, paper and poster:
-- <a href="templates/CES_abstract_template.md" download>Download</a>
-- [Scientific paper template (on Overleaf)](https://www.overleaf.com/read/zjgpfdssnsty#6329cb)
-- [Poster template](https://raw.githubusercontent.com/jakobhaervig/ces/main/templates/CES_poster_template.pptx)
+## CES submission guidelines
 
-*The abstract should be written in Markdown format (.md) using the template. You can open and edit Markdown files in a simple text editor such as Notepad. It's not recommended to use Word to write your abstract.
+
+### Abstract submission
+The abstract should be submitted through GitHub, which hosts the conference website. Follow these steps to submit your abstract:
+
+### Scientific paper submission
+Your scientific paper should use the [CES paper template](https://www.overleaf.com/read/zjgpfdssnsty#6329cb) available on Overleaf.
+
+### Poster submission
+Your poster should use the [CES poster template](https://raw.githubusercontent.com/jakobhaervig/ces/main/templates/CES_poster_template.pptx).
