@@ -21,6 +21,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git checkout -b downloads || git checkout downloads
+        mkdir -p download
         mv templates.zip download/
         git add download/templates.zip
         git commit -m "Add templates ZIP"
