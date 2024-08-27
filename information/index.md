@@ -14,7 +14,7 @@ layout: page
 
 
 ### Abstract submission
-Your abstract should follow the <a href="https://raw.githubusercontent.com/jakobhaervig/ces/main/_talks/CES_abstract_template" download="CES_abstract_template.md">CES abstract templatete</a>. More guidelines and requirements are specified in the template.
+<a href="/templates/CES_poster_template.pptx" download="CES_poster_template.md">Test link</a>
 
 ### Scientific paper submission
 Your scientific paper should use the [CES paper template](https://www.overleaf.com/read/zjgpfdssnsty#6329cb) available on Overleaf. More guidelines and requirements are specified in the template.
