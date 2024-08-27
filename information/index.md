@@ -14,7 +14,10 @@ layout: page
 
 
 ### Abstract submission
-Your abstract should use the <a href="/templates/CES_abstract_template.temp" download="CES_abstract_template.md">CES abstract template</a>. More guidelines and requirements are specified in the template.
+Your abstract should use the <a href="/templates/CES_abstract_template.md" download="CES_abstract_template.md">CES abstract template</a>. More guidelines and requirements are specified in the template.
+
+
+<a target="_blank" href="../templates/CES_abstract_template.md?download=" rel="noreferrer">download</a>
 
 ### Scientific paper submission
 Your scientific paper should use the [CES paper template](https://www.overleaf.com/read/zjgpfdssnsty#6329cb) available on Overleaf. More guidelines and requirements are specified in the template.
