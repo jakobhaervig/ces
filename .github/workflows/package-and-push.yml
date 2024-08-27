@@ -17,6 +17,8 @@ jobs:
       run: zip -r templates.zip templates/
 
     - name: Push ZIP to a branch
+      env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_PAT }}  # Use the PAT stored in the secrets
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -25,4 +27,4 @@ jobs:
         mv templates.zip download/
         git add download/templates.zip
         git commit -m "Add templates ZIP"
-        git push origin downloads
+        git push origin downloads --force
