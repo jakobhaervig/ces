@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4.6586304mm"
+   height="2.4417114mm"
+   viewBox="0 0 4.6586304 2.4417114"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="149.45377"
+       y="284.2894"
+       width="176.50816"
+       height="81.817749"
+       id="rect1" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-70.711536,-78.529688)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,31.057109,2.7131676)"
+       id="text1"
+       style="white-space:pre;shape-inside:url(#rect1);fill:#000000"><tspan
+         x="149.45312"
+         y="295.64438"
+         id="tspan3"><tspan
+           style="font-family:'Gill Sans Ultra Bold Condensed';-inkscape-font-specification:'Gill Sans Ultra Bold Condensed, ';fill:#0c244a"
+           id="tspan2">CES</tspan></tspan></text>
+  </g>
+</svg>

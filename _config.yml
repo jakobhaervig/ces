@@ -1,9 +1,13 @@
 title: Conference for Energy Students (CES)
+shorttitle: CES
 preposition: at
 description: >-
    Hosted by Department of Energy, Aalborg University
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ces.energy.aau.dk" # the base hostname & protocol for your site, e.g. https://example.com
+
+tree_url: 'https://github.com/jakobhaervig/ces/raw/main'
+abstract_template: '/templates/CES_abstract_template.md'
 
 theme: jekyll-theme-conference
 
@@ -66,7 +70,7 @@ conference:
   navigation:
     logo:
       name: Aalborg University
-      img: 'logo.svg'  # inside /assets/images/
+      img: 'logo_aau.svg'  # inside /assets/images/
       url: 'https://aau.dk/'
     breakpoint: md
     links:
@@ -96,7 +100,7 @@ conference:
   # Main landing page
   main:
     # logo:
-    #   img: ''
+    #    img: 'logo_ces.svg'  # inside /assets/images/
     links:
       - name: Programme
         relative_url: /program/

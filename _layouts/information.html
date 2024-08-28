@@ -1,0 +1,55 @@
+{% include partials/header.html %}
+
+<h1 class="font-weight-light mb-3 text-break">
+    Important dates
+</h1>
+
+
+<li class="mb-1">
+{{site.data.dates.abstract_submission_deadline}}: Abstract submission deadline 
+</li>
+
+<li class="mb-1">
+{{site.data.dates.abstract_notification}}: Abstract submission acceptance notification
+</li>
+<li class="mb-1">
+{{site.data.dates.conference_programme_available}}:Conference programme available online
+</li>
+<li class="mb-1">
+{{site.data.dates.paper_submission_deadline}}: Scientific paper submission deadline 
+</li>
+<li class="mb-1">
+{{site.data.dates.poster_submission_deadline}}: Poster submission deadline
+</li>
+<li class="mb-1">
+{{site.data.dates.conference_day}}: Conference day
+</li>
+
+<h1 class="font-weight-light mb-3 text-break">
+    CES submission guidelines
+</h1>
+
+<p class="h6">
+Abstract
+<h4 class="content"><a target="_blank" href="{{ site.tree_url | append: site.abstract_template | append: '/' | append: '?download='}}" download rel="noreferrer">test</a></h4>
+</p>
+
+<p class="h6">
+Scientific paper
+</p>
+
+<p class="h6">
+Poster
+</p>
+
+### 
+Your abstract should use the <a href="/templates/CES_abstract_template.md" download="CES_abstract_template.md">CES abstract template</a>. More guidelines and requirements are specified in the template.
+
+
+<a target="_blank" href="https://raw.githubusercontent.com/jakobhaervig/ces/main/templates/CES_abstract_template.md?download=" rel="noreferrer">download</a>
+
+### 
+Your scientific paper should use the [CES paper template](https://www.overleaf.com/read/zjgpfdssnsty#6329cb) available on Overleaf. More guidelines and requirements are specified in the template.
+
+### 
+Your poster should use the [CES poster template](https://raw.githubusercontent.com/jakobhaervig/ces/main/templates/CES_poster_template.pptx). More guidelines and requirements are specified in the template.
