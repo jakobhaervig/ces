@@ -13,7 +13,7 @@
   </h1>
 
   {%- if today_date < conference_programme_date -%}
-  Conference program will be available here on {{ site.data.dates.conference_programme_available }}.
+  Conference programme will be available here on {{ site.data.dates.conference_programme_available }}.
   {%- else -%}
   {{ content }}
   {{ today_date }}
