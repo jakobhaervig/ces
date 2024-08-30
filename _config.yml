@@ -75,7 +75,7 @@ conference:
       url: 'https://aau.dk/'
     breakpoint: md
     links:
-      - name: Program
+      - name: Programme
         relative_url: /program/
       - name: Talks
         relative_url: /talks/
@@ -107,7 +107,7 @@ conference:
         relative_url: /program/
       - name: Conference venue
         relative_url: /location/
-      - name: How to submit your paper
+      - name: Important importand and dates
         relative_url: /information/
   # Information boxes
   info_bars:
