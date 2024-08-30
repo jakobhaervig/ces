@@ -7,7 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ces.energy.aau.dk" # the base hostname & protocol for your site, e.g. https://example.com
 
 tree_url: 'https://github.com/jakobhaervig/ces/raw/main'
-abstract_template: '/templates/CES_abstract_template.md'
+abstract_template: '/templates/CES_abstract_template.zip'
+poster_template: '/templates/CES_poster_template.pptx'
 
 theme: jekyll-theme-conference
 

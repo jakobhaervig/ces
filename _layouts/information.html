@@ -1,55 +1,56 @@
 {% include partials/header.html %}
 
-<h1 class="font-weight-light mb-3 text-break">
+<h1 class="display-5 mb-3 text-break">
     Important dates
 </h1>
 
-
 <li class="mb-1">
-{{site.data.dates.abstract_submission_deadline}}: Abstract submission deadline 
+    <b>{{site.data.dates.abstract_writing_workshop}}</b>: Abstract writing workshop 
+</li>
+<li class="mb-1">
+    <b>{{site.data.dates.abstract_submission_deadline}}</b>: Abstract submission deadline 
+</li>
+<li class="mb-1">
+    <b>{{site.data.dates.abstract_notification}}</b>: Abstract acceptance/rejection notification
+</li>
+<li class="mb-1">
+    <b>{{site.data.dates.conference_programme_available}}</b>: Conference programme available online
+</li>
+<li class="mb-1">
+    <b>{{site.data.dates.paper_writing_workshop}}</b>: Scientific paper writing workshop 
+</li>
+<li class="mb-1">
+    <b>{{site.data.dates.paper_submission_deadline}}</b>: Scientific paper submission deadline 
+</li>
+<li class="mb-1">
+    <b>{{site.data.dates.poster_submission_deadline}}</b>: Poster submission deadline
+</li>
+<li class="mb-4">
+    <b>{{site.data.dates.conference_day}}</b>: Conference day
 </li>
 
-<li class="mb-1">
-{{site.data.dates.abstract_notification}}: Abstract submission acceptance notification
-</li>
-<li class="mb-1">
-{{site.data.dates.conference_programme_available}}:Conference programme available online
-</li>
-<li class="mb-1">
-{{site.data.dates.paper_submission_deadline}}: Scientific paper submission deadline 
-</li>
-<li class="mb-1">
-{{site.data.dates.poster_submission_deadline}}: Poster submission deadline
-</li>
-<li class="mb-1">
-{{site.data.dates.conference_day}}: Conference day
-</li>
 
-<h1 class="font-weight-light mb-3 text-break">
+<h1 class="display-5 mb-3 text-break">
     CES submission guidelines
 </h1>
 
-<p class="h6">
-Abstract
-<h4 class="content"><a target="_blank" href="{{ site.tree_url | append: site.abstract_template | append: '/' | append: '?download='}}" download rel="noreferrer">test</a></h4>
-</p>
+<h3 class="font-weight-light mb-2 text-break">
+    Abstract
+</h3>
+<p>Note the abstract should be written in Markdown format (extension .md). A markdown file is simply a text file that can be opened in any text editor. When submitting your abstract please make sure to name the file as your group email <b><i>[group-number].md</i></b>, e.g. <i>et-23-tepe-1-700.md</i>. If in doubt talk to the study secretary. Guidelines are written in the template.</p>
 
-<p class="h6">
-Scientific paper
-</p>
+<p class="content"><a target="_blank" href="{{ site.tree_url | append: site.abstract_template | append: '/' | append: '?download='}}" download rel="noreferrer">Download abstract template</a></p>
+<p class="content"><a target="_blank" href="{{ site.tree_url | append: site.abstract_template | append: '/' | append: '?download='}}" download rel="noreferrer">Link to abstract submission</a></p>
 
-<p class="h6">
-Poster
-</p>
+<h3 class="font-weight-light mb-2 text-break">
+    Scientific paper
+</h3>
+<p>The scientific paper is available on Overleaf. To make a copy of the template, go to <i>Menu</i> and <i>Copy Project</i>. Guidelines are written in the template.</p>
 
-### 
-Your abstract should use the <a href="/templates/CES_abstract_template.md" download="CES_abstract_template.md">CES abstract template</a>. More guidelines and requirements are specified in the template.
+<p class="content"><a target="_blank" href="https://www.overleaf.com/read/zjgpfdssnsty#6329cb" download rel="noreferrer">Download scientific paper template on Overleaf.</a></p>
 
-
-<a target="_blank" href="https://raw.githubusercontent.com/jakobhaervig/ces/main/templates/CES_abstract_template.md?download=" rel="noreferrer">download</a>
-
-### 
-Your scientific paper should use the [CES paper template](https://www.overleaf.com/read/zjgpfdssnsty#6329cb) available on Overleaf. More guidelines and requirements are specified in the template.
-
-### 
-Your poster should use the [CES poster template](https://raw.githubusercontent.com/jakobhaervig/ces/main/templates/CES_poster_template.pptx). More guidelines and requirements are specified in the template.
+<h3 class="font-weight-light mb-2 text-break">
+    Poster
+</h3>
+<p> Guidelines are written in the template.</p>
+<p class="content"><a target="_blank" href="{{ site.tree_url | append: site.poster_template | append: '/' | append: '?download='}}" download rel="noreferrer">Download poster template.</a></p>
