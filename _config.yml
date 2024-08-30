@@ -107,7 +107,7 @@ conference:
         relative_url: /program/
       - name: Conference venue
         relative_url: /location/
-      - name: Important importand and dates
+      - name: Important information and dates
         relative_url: /information/
   # Information boxes
   info_bars:
