@@ -1,6 +1,9 @@
 {% include partials/header.html %}
   {% assign nbr_days = site.data.program.days | size -%}
 
+  {% assign today_date = 'now' | date: '%Y%m%d' | times: 1 %}
+  {% assign conference_programme_date = site.data.dates.conference_programme_available | date: '%Y%m%d' | times: 1 %}
+
   <h1 class="display-5 {% if nbr_days > 1 -%} mb-2 {%- else -%} mb-4 {%- endif %} text-break">
     {%- if page.title -%}
       {{- page.title -}}
@@ -9,7 +12,12 @@
     {%- endif -%}
   </h1>
 
+  {%- if today_date < conference_programme_date -%}
+  Conference program will be available here on {{ site.data.dates.conference_programme_available }}.
+  {%- else -%}
   {{ content }}
+  {{ today_date }}
+  {{ conference_programme_date }}
 
   {%- if nbr_days > 1 %}
     <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
@@ -199,6 +207,8 @@
           {{- main_cat.name -}}
         </div>
       {%- endfor -%}
+  {%- endif -%}
+
   {%- endif -%}
 
 {% include partials/footer.html %}
