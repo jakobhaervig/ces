@@ -254,6 +254,11 @@ main.container img {
   }
 }
 
-// body {
-//   overflow: hidden; /* Hide scrollbars */
-// }
+html {
+  overflow:   scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
