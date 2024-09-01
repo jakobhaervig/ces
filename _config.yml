@@ -100,8 +100,8 @@ conference:
 
   # Main landing page
   main:
-    # logo:
-    #    img: 'logo_ces.svg'  # inside /assets/images/
+    logo:
+       img: 'ces_picture.jpeg'  # inside /assets/images/
     links:
       - name: Programme
         relative_url: /program/
