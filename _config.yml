@@ -114,11 +114,8 @@ conference:
     - title: Welcome to the new website of CES 2024!
       color: primary
       main_only: true
-      text: |
-        If you have any comments or experience any problems, please report them to conference organiser Jakob Hærvig at jah@energy.aau.dk.
-    # - text: This is just some random content for demonstration purposes.
-    #   color: warning
-    #   pages_only: true
+      # text: |
+      #   If you have any comments or experience any problems, please report them to the conference organiser Jakob Hærvig at jah@energy.aau.dk.
 
   # Live indications
   live:
