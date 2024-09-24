@@ -114,8 +114,8 @@ conference:
     - title: Welcome to the new website of CES 2024!
       color: primary
       main_only: true
-      # text: |
-      #   If you have any comments or experience any problems, please report them to the conference organiser Jakob Hærvig at jah@energy.aau.dk.
+      text: |
+        **Update**: Submission of abstract and poster has changed. Follow the links under "Important information" to submit in Moodle.
 
   # Live indications
   live:
