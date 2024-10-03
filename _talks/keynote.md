@@ -1,8 +1,8 @@
 ---
-name: To be announced
+name: Titel
 number: keynote
 speakers:
-  - To be announced
+  - Anders Schou Simonsen
 categories:
   - Plenary
   - Keynote presentation

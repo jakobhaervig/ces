@@ -1,7 +1,7 @@
 ---
-name: Tolga Philip
-first_name: Tolga
-last_name: Philip
+name: Anders Schou Simonsen
+first_name: Anders Schou
+last_name: Simonsen
 links:
   - name: Profile
     absolute_url: https://github.com
