@@ -32,6 +32,7 @@ jobs:
           gem install jekyll bundler
           apt install git-lfs
           git lfs install
+      - name: Build and deploy
         run: bundle exec jekyll serve
     #- uses: ruby/setup-ruby@v1
     #  with:
