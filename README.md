@@ -34,6 +34,11 @@ echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
+Reload shell:
+```
+exec bash
+```
+
 Install Jekyll and bundler:
 ```
 gem install jekyll bundler
@@ -43,6 +48,11 @@ Install git lfs support:
 ```
 sudo apt install git-lfs
 git lfs install
+```
+
+Install packages:
+```
+bundle install
 ```
 
 Serve website locally:
