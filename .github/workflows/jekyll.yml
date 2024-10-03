@@ -22,13 +22,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Ruby
+      - name: Install Ruby
         run: |
           sudo apt-get install ruby-full build-essential zlib1g-dev
+      - name: Set paths
+        run: |
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
           echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
           source ~/.bashrc
+      - name: Set up bundler
+        run: |
           gem install jekyll bundler
           sudo apt install git-lfs
           git lfs install
