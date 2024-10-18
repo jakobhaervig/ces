@@ -10,7 +10,19 @@ days:
         time_end: '09:30'
       - number: keynote
         time_start: '09:30'
+        time_end: '10:00'
+      - number: break
+        time_start: '10:00'
+        time_end: '10:15'
+      - number: PED3-940
+        time_start: '10:15'
         time_end: '10:30'
+      - number: EPSH1-730
+        time_start: '10:30'
+        time_end: '10:45'
+      - number: PED1-743
+        time_start: '10:45'
+        time_end: '11:00'
 
   - name: Pon111/1.031
     talks:
@@ -19,4 +31,4 @@ days:
         time_end: '09:30'
       - number: keynote
         time_start: '09:30'
-        time_end: '10:30'
+        time_end: '10:00'

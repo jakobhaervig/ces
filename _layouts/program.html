@@ -16,8 +16,6 @@
   Conference programme will be available here on {{ site.data.dates.conference_programme_available }}.
   {%- else -%}
   {{ content }}
-  {{ today_date }}
-  {{ conference_programme_date }}
 
   {%- if nbr_days > 1 %}
     <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
@@ -160,9 +158,11 @@
                       <p class="mb-2">
                         {%- include partials/show_talk.html %}
                       </p>
-                      <p class="mb-1">
+                      <!-- <p class="mb-1">
                         {%- include partials/show_number.html %}
-                      </p>
+                      </p> -->
+                      <p class="font-weight-light mb-2">
+                        {%- include partials/show_chairman.html %}
                       <p class="font-weight-light mb-2">
                         {%- include partials/list_speakers.html %}
                       </p>
