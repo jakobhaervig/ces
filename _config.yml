@@ -135,18 +135,23 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: TEPE
+      - name: Session 1A
+        chairman: 'John Doe'
+        color: primary
+      - name: Session 2A
+        color: secondary
+      - name: Session 3A
+        color: success
+      - name: Session 4A
         color: info
-      - name: HYTEC
-        color: info
-      - name: MCE
+      - name: Session 1B
+        color: pink
+      - name: Session 2B
+        color: danger
+      - name: Session 3B
+        color: light
+      - name: Session 4B
         color: dark
-      - name: EPSH
-        color: success
-      - name: PED
-        color: success
-      - name: HWPS
-        color: success
       - name: Plenary
         color: warning
 
