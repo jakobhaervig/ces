@@ -1,0 +1,10 @@
+{%- for ses_name in site.conference.talks.main_categories -%}
+  {%- if session_number == ses_name.session_number -%}
+  {%- if ses_name.show_session -%}
+    <p>{{ ses_name.session_number }}: {{ ses_name.session_name}}</p>
+  {%- endif -%}
+  {%- if ses_name.chairman != null -%}
+    <p>Chairman: {{ ses_name.chairman }}</p>
+  {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}

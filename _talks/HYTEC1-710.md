@@ -1,8 +1,6 @@
 ---
 name: Flow in a thermal energy storage system
 number: HYTEC1-710
-categories: 
-  - Technical presentation 
 ---
 Heating consumption varies throughout the year, since in the winter the thermal and electrical energy generation does not always align, leading to a challenge for the Danish district heating system.
 Thermal energy storage (TES) systems are a promising solution for stabilizing the grid and balancing fluctuating heating demands during colder months. 

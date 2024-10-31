@@ -1,8 +1,7 @@
 ---
-name: Coffee and fruit
+name: Break
 number: break
 categories:
   - Plenary
-  - Break
 ---
 

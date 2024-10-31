@@ -135,25 +135,57 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Session 1A
-        chairman: 'John Doe'
+      - session_number: 1A
+        session_name: 'Energy Transmission and storage in power electronics'
+        show_session: true
+        chairman: '?'
         color: primary
-      - name: Session 2A
+      - session_number: 2A
+        session_name: 'Electrical Motors and semi-conductors'
+        show_session: true
+        chairman: '?'
         color: secondary
-      - name: Session 3A
-        color: success
-      - name: Session 4A
+      - session_number: 3A
+        session_name: 'Microgrids and energy management system'
+        show_session: true
         color: info
-      - name: Session 1B
-        color: pink
-      - name: Session 2B
-        color: danger
-      - name: Session 3B
-        color: light
-      - name: Session 4B
+      - session_number: 1B
+        session_name: 'Computational fluid dynamics'
+        show_session: true
+        chairman: '?'
+        color: primary
+      - session_number: 2B
+        session_name: 'Hydraulic and mechanical systems'
+        show_session: true
+        chairman: '?'
+        color: secondary
+      - session_number: 3B
+        session_name: 'Heat exchangers and vortex generators'
+        show_session: true
+        chairman: '?'
+        color: info
+      - session_number: 4B
+        session_name: 'CO2 capture and utilization'
+        show_session: true
+        chairman: '?'
         color: dark
-      - name: Plenary
+      - session_number: break
+        session_name: 'Plenary'
+        show_session: false
         color: warning
+      - session_number: keynote
+        session_name: 'Plenary'
+        show_session: false
+        color: warning
+      - session_number: opening
+        session_name: 'Plenary'
+        show_session: false
+        color: warning
+      - session_number: poster
+        session_name: 'Plenary'
+        show_session: false
+        color: warning
+
 
     # Hide icons on talk overview page
     hide_icons: false

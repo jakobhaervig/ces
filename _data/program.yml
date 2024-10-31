@@ -3,52 +3,143 @@ days:
   abbr: wed
   date: 2024-12-18
   rooms:
-  - name: Pon111/1.177
+  - name: Hallway
     talks:
-      - number: opening
-        time_start: '09:00'
-        time_end: '09:30'
-      - number: keynote
-        time_start: '09:30'
-        time_end: '10:00'
       - number: break
         time_start: '10:00'
         time_end: '10:15'
+        session: break
+      - number: break
+        time_start: '11:00'
+        time_end: '11:15'
+        session: break
+      - number: poster
+        time_start: '12:30'
+        time_end: '14:00'
+        session: break
+      - number: break
+        time_start: '14:45'
+        time_end: '15:00'
+        session: break
+
+  - name: Pon111/1.177
+    talks:
+      - number: opening
+        session: opening
+        time_start: '09:00'
+        time_end: '09:30'
+      - number: keynote
+        session: keynote
+        time_start: '09:30'
+        time_end: '10:00'
       - number: PED3-940
         session: 1A
         time_start: '10:15'
         time_end: '10:30'
       - number: EPSH1-730
+        session: 1A        
         time_start: '10:30'
         time_end: '10:45'
-        session: 1A
       - number: PED1-743
+        session: 1A
         time_start: '10:45'
         time_end: '11:00'
-      - number: break
-        time_start: '11:00'
-        time_end: '11:15'
       - number: PED1-742
+        session: 1A
         time_start: '11:15'
         time_end: '11:30'
       - number: EPSH3-930
+        session: 1A
         time_start: '11:30'
         time_end: '11:45'
       - number: PED3-942
+        session: 2A
         time_start: '11:45'
         time_end: '12:00'
       - number: PED3-941
+        session: 2A
         time_start: '12:00'
         time_end: '12:15'
       - number: PED1-741
+        session: 2A
         time_start: '12:15'
         time_end: '12:30'
+      - number: WPS3-950
+        session: 3A
+        time_start: '14:00'
+        time_end: '14:15'
+      - number: EPSH1-731
+        session: 3A
+        time_start: '14:15'
+        time_end: '14:30'
+      - number: PED3-943
+        session: 3A
+        time_start: '14:30'
+        time_end: '14:45'
+      - number: PED1-740
+        session: 3A
+        time_start: '15:00'
+        time_end: '15:15'
+      - number: EPSH3-931
+        session: 3A
+        time_start: '15:15'
+        time_end: '15:30'
 
   - name: Pon111/1.031
     talks:
-      - number: opening
-        time_start: '09:00'
-        time_end: '09:30'
-      - number: keynote
-        time_start: '09:30'
-        time_end: '10:00'
+      - number: TEPE1-702
+        session: 1B
+        time_start: '10:15'
+        time_end: '10:30'
+      - number: TEPE3-902
+        session: 1B
+        time_start: '10:30'
+        time_end: '10:45'
+      - number: HYTEC1-710
+        session: 1B
+        time_start: '10:45'
+        time_end: '11:00'
+      - number: MCE1-721
+        session: 2B
+        time_start: '11:15'
+        time_end: '11:30'
+      - number: MCE1-720
+        session: 2B
+        time_start: '11:30'
+        time_end: '11:45'
+      - number: MCE1-722
+        session: 2B
+        time_start: '11:45'
+        time_end: '12:00'
+      - number: MCE3-920
+        session: 2B
+        time_start: '12:00'
+        time_end: '12:15'
+      - number: MCE3-921
+        session: 2B
+        time_start: '12:15'
+        time_end: '12:30'
+      - number: TEPE1-700
+        session: 3B
+        time_start: '14:00'
+        time_end: '14:15'
+      - number: TEPE1-701
+        session: 3B
+        time_start: '14:15'
+        time_end: '14:30'
+      - number: TEPE1-703
+        session: 3B
+        time_start: '14:30'
+        time_end: '14:45'
+      - number: TEPE3-900
+        session: 4B
+        time_start: '15:00'
+        time_end: '15:15'
+      - number: TEPE3-901
+        session: 4B
+        time_start: '15:15'
+        time_end: '15:30'
+      - number: TEPE3-903
+        session: 4B
+        time_start: '15:30'
+        time_end: '15:45'

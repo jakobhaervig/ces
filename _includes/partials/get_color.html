@@ -1,0 +1,5 @@
+{%- for ses_name in site.conference.talks.main_categories -%}
+  {%- if session_number == ses_name.session_number -%}
+    {%- assign color = ses_name.color -%}
+  {%- endif -%}
+{%- endfor -%}
