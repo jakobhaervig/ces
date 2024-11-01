@@ -12,7 +12,7 @@
     {%- endif -%}
   </h1>
 
-  {%- if today_date < conference_programme_date -%}
+  {%- if conference_programme_date > today_date-1 -%}
   Conference programme will be available here on {{ site.data.dates.conference_programme_available }}.
   {%- else -%}
   {{ content }}
