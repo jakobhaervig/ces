@@ -113,7 +113,7 @@ conference:
       color: primary
       main_only: true
       text: |
-        **Update**: Submission of abstract and poster has changed. Follow the links under "Important information" to submit in Moodle.
+        **Update**: Final programme is now available! See you on conference day.
 
   # Live indications
   live:
@@ -161,12 +161,12 @@ conference:
       - session_number: 3B
         session_name: 'Heat exchangers and vortex generators'
         show_session: true
-        chairman: '?'
+        chairman: 'Thomas Condra'
         color: info
       - session_number: 4B
         session_name: 'CO2 capture and utilization'
         show_session: true
-        chairman: '?'
+        chairman: 'Kim Sørensen'
         color: dark
       - session_number: break
         session_name: 'Plenary'
