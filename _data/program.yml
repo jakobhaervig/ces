@@ -31,10 +31,10 @@ days:
       - number: opening
         session: opening
         time_start: '09:00'
-        time_end: '09:30'
+        time_end: '09:15'
       - number: keynote
         session: keynote
-        time_start: '09:30'
+        time_start: '09:15'
         time_end: '10:00'
       - number: PED3-940
         session: 1A
