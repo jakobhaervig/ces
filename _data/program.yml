@@ -22,7 +22,7 @@ days:
         time_end: '15:00'
         session: break
       - number: break
-        time_start: '15:45'
+        time_start: '15:30'
         time_end: '16:00'
         session: break
 
